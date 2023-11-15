@@ -1,0 +1,86 @@
+
+.fourth-page {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    background-image: url(images/Grille_de_répétition_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .header-page {
+        text-align: center;
+        width: 60%;
+        padding-bottom: 85px;
+
+        h2 {
+            color: $col-green;
+            font-size: $title-font-size;
+            padding-bottom: 30px;
+        }
+
+        p {
+            font-size: $default-font-size;
+            padding-bottom: 30px;
+        }
+    }
+
+    .middle-part {
+        display: flex;
+        padding-inline: 5%;
+        gap: 100px;
+
+        .left {
+
+            .menu-salade {
+
+                padding-bottom: 50px;
+
+                .header-txt {
+                    display: flex;
+                    justify-content: space-between;
+                    color: $col-green;
+                    font-weight: bold;
+                    padding-bottom: 12px;
+                }
+
+                // faire en sorte que le txt n'aille pas jusqu
+                // au prix
+
+                >p {
+                    width: 60%;
+                }
+            }
+        }
+
+        .right {
+            height: 600px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .rotate-txt {
+                font-size: 64px;
+                transform: rotate(-9deg);
+                padding-bottom: 60px;
+
+                .vert {
+                    color: $col-green;
+                }
+
+                .bleu {
+                    color: rgb(96, 160, 216);
+                }
+            }
+
+            >p {
+                width: 80%;
+                font-size: $default-font-size;
+            }
+        }
+    }
+}

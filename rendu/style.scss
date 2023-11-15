@@ -1,0 +1,37 @@
+@import 
+    "stylesheets/abstracts/variables",
+    "stylesheets/abstracts/functions",
+    "stylesheets/abstracts/mixins";
+
+@import 
+    "stylesheets/base/fonts";
+
+@import 
+    "stylesheets/components/button";
+
+@import 
+    "stylesheets/layout/header",
+    "stylesheets/layout/footer";   
+
+@import 
+    "stylesheets/layout/ingredients",
+    "stylesheets/layout/menu",
+    "stylesheets/layout/partage",
+    "stylesheets/layout/accueil",
+    "stylesheets/layout/presentation",
+    "stylesheets/layout/presentation2";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+

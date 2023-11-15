@@ -1,0 +1,347 @@
+@charset "UTF-8";
+.btn-commande {
+  width: 160px;
+  height: 39px;
+  background-color: white;
+  color: #B2D234;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-infos, .btn-infos-inverted {
+  width: 255px;
+  height: 60px;
+  background-color: #B2D234;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.btn-infos-inverted {
+  background-color: white;
+  color: #B2D234;
+}
+
+.btn-passer-commande, .btn-postuler {
+  width: 355px;
+  height: 60px;
+  background-color: #B2D234;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0px 8px 10px rgba(97, 97, 97, 0.2);
+}
+
+.btn-postuler {
+  height: 60px;
+  width: 225px;
+}
+
+.navbar {
+  display: flex;
+  height: 69px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  width: 15%;
+}
+.navbar .menu-items {
+  display: flex;
+  align-items: center;
+}
+.navbar .menu-items ul {
+  display: flex;
+  gap: 50px;
+  color: white;
+  margin-right: 40px;
+}
+
+footer {
+  height: 290px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #B2D234;
+  color: white;
+  text-align: center;
+  padding-inline: 3%;
+  padding-block: 5%;
+  justify-content: center;
+  align-items: center;
+}
+footer h2 {
+  padding-bottom: 27px;
+}
+
+.fifth-page {
+  height: 100vh;
+  background-image: url(images/louis-hansel-MlPD-AzZYMg-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 3%;
+  gap: 16px;
+}
+.fifth-page .card-ingredients, .fifth-page .card-ingredients-bleu, .fifth-page .card-ingredients-vert {
+  width: 50%;
+  height: 420px;
+  padding-inline: 5%;
+  padding-block: 2%;
+  text-align: center;
+}
+.fifth-page .card-ingredients-vert {
+  background-color: rgba(178, 210, 52, 0.8);
+}
+.fifth-page .card-ingredients-bleu {
+  background-color: rgba(96, 160, 216, 0.8);
+}
+.fifth-page .card-ingredients h2, .fifth-page .card-ingredients-vert h2, .fifth-page .card-ingredients-bleu h2 {
+  font-size: 52px;
+  padding-bottom: 40px;
+}
+.fifth-page .card-ingredients .container-ingredients, .fifth-page .card-ingredients-vert .container-ingredients, .fifth-page .card-ingredients-bleu .container-ingredients {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.fourth-page {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+  background-image: url(images/Grille_de_répétition_2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth-page .header-page {
+  text-align: center;
+  width: 60%;
+  padding-bottom: 85px;
+}
+.fourth-page .header-page h2 {
+  color: #B2D234;
+  font-size: 52px;
+  padding-bottom: 30px;
+}
+.fourth-page .header-page p {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.fourth-page .middle-part {
+  display: flex;
+  padding-inline: 5%;
+  gap: 100px;
+}
+.fourth-page .middle-part .left .menu-salade {
+  padding-bottom: 50px;
+}
+.fourth-page .middle-part .left .menu-salade .header-txt {
+  display: flex;
+  justify-content: space-between;
+  color: #B2D234;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+.fourth-page .middle-part .left .menu-salade > p {
+  width: 60%;
+}
+.fourth-page .middle-part .right {
+  height: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fourth-page .middle-part .right .rotate-txt {
+  font-size: 64px;
+  transform: rotate(-9deg);
+  padding-bottom: 60px;
+}
+.fourth-page .middle-part .right .rotate-txt .vert {
+  color: #B2D234;
+}
+.fourth-page .middle-part .right .rotate-txt .bleu {
+  color: rgb(96, 160, 216);
+}
+.fourth-page .middle-part .right > p {
+  width: 80%;
+  font-size: 18px;
+}
+
+.sixth-page {
+  background-image: url(images/Grille_de_répétition.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  padding-inline: 2%;
+  padding-block: 7%;
+}
+.sixth-page .right-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sixth-page .right-form .header-form {
+  padding-bottom: 28px;
+}
+.sixth-page .right-form .header-form h2 {
+  color: #B2D234;
+  font-size: 52px;
+  padding-bottom: 18px;
+}
+.sixth-page .right-form .header-form p {
+  width: 60%;
+}
+.sixth-page .right-form .form {
+  color: #B2D234;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sixth-page .right-form .form .container-la-in {
+  display: flex;
+  flex-direction: column;
+}
+.sixth-page .right-form .form .container-la-in label {
+  padding-bottom: 8px;
+  padding-top: 25px;
+}
+.sixth-page .right-form .form .container-la-in input {
+  height: 45px;
+  border: rgba(78, 78, 78, 0.2) solid 2px;
+}
+.sixth-page .right-form .form .form-name {
+  display: flex;
+  gap: 16px;
+}
+.sixth-page .right-form .form .form-name input {
+  width: 300px;
+}
+.sixth-page .right-form .btn-postuler {
+  margin-top: 35px;
+}
+
+.first-page {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(96, 160, 216, 0.6), rgba(178, 210, 52, 0.6)), url(images/Header_back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-inline: 40px;
+  padding-block: 25px;
+}
+.first-page .tagline {
+  height: 271px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first-page .tagline h1 {
+  font-size: 126px;
+  z-index: 1;
+  position: absolute;
+}
+.first-page .tagline p {
+  font-size: 54px;
+  transform: rotate(-9deg);
+  margin-top: 220px;
+  margin-left: 90px;
+}
+.first-page .icones-reseaux {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90%;
+}
+
+.second-page {
+  height: 100vh;
+  background-image: url(images/Grille_de_répétition.png);
+  display: flex;
+  justify-content: center;
+}
+.second-page .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  width: 80%;
+  z-index: 1;
+}
+.second-page .text h2 {
+  color: #B2D234;
+  font-size: 52px;
+  padding-bottom: 40px;
+}
+.second-page .text p {
+  padding-bottom: 40px;
+  padding-right: 20px;
+}
+
+.third-page {
+  height: 100vh;
+  background-image: url(images/ismael-trevino-NDyuR4Huig8-unsplash.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5%;
+}
+.third-page .accroche {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(178, 210, 52, 0.8);
+  padding: 2%;
+  color: white;
+  text-align: center;
+}
+.third-page .accroche h2 {
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+.third-page .accroche div {
+  padding-bottom: 40px;
+}
+.third-page .accroche div p {
+  font-size: 18px;
+  padding-bottom: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

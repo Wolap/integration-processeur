@@ -1,0 +1,41 @@
+
+
+.third-page {
+
+    height: 100vh;
+    background-image: url(images/ismael-trevino-NDyuR4Huig8-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5%;
+
+    .accroche {
+        width: 40%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(178, 210, 52, 0.8);
+        padding: 2%;
+        color: white;
+        text-align: center;
+
+        h2 {
+            font-size: 40px;
+            padding-bottom: 40px;
+        }
+
+        div {
+
+            padding-bottom: 40px;
+            p {
+                font-size: $default-font-size;
+                padding-bottom: $default-font-size;
+            }
+        }
+        
+    }
+}

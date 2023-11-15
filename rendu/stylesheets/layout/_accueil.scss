@@ -1,0 +1,48 @@
+
+
+.first-page {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(96, 160, 216, 0.6), rgba(178,210, 52, 0.6)),
+        url(images/Header_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 40px;
+    padding-block: 25px;
+
+    .tagline {
+        height: 271px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 126px;
+            z-index: 1;
+            position: absolute;
+            // faire modif 
+        }
+
+        //rendre positionnement moins dégeu
+        p {
+            font-size: 54px;
+            transform: rotate(-9deg);
+            margin-top: 220px;
+            margin-left: 90px;
+        }
+    }
+
+    .icones-reseaux {
+        width: 10%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 90%;
+
+    }
+
+}

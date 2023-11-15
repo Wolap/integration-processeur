@@ -1,0 +1,18 @@
+
+footer {
+    height: 290px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: $col-green;
+    color: white;
+    text-align: center;
+    padding-inline: 3%;
+    padding-block: 5%;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        padding-bottom: 27px;
+    }
+}

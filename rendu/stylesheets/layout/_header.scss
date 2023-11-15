@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+
+.navbar {
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 15%;
+    }
+
+    .menu-items {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: 50px;
+            color: white;
+            margin-right: 40px;
+        }
+
+        
+    }         
+}

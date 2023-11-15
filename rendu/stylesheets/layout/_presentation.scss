@@ -1,0 +1,29 @@
+
+
+.second-page {
+    height: 100vh;
+    background-image: url(images/Grille_de_répétition.png);
+    display: flex;
+    justify-content: center;
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
+        width: 80%;
+        z-index: 1;
+
+        h2 {
+            color: $col-green;
+            font-size: $title-font-size;
+            padding-bottom: 40px;
+        }
+
+        p {
+            padding-bottom: 40px;
+            padding-right: 20px;
+
+        }
+    }
+}

@@ -5,7 +5,7 @@
 
 .navbar {
     display: flex;
-    height: 69px;
+    height: 10%;
     justify-content: space-between;
     align-items: center;
 
@@ -22,8 +22,79 @@
             gap: 50px;
             color: white;
             margin-right: 40px;
+
+            .txt-underline {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+
+                .underline {
+                    bottom: -2px;
+                    position: absolute;
+                    width: 0%;
+                    border-bottom: 2px solid white ;
+                    transition: width .2s ease-out;
+                }
+
+                li:hover + .underline {
+                    width: 50%;
+                }
+            }       
+              
+        } 
+    }         
+}
+
+@media screen and (max-width: 950px) {
+
+    .navbar {
+        flex-wrap: wrap;
+
+        img {
+            width: 20%;
         }
 
+        .menu-items ul{
+            gap: 25px;
+        }    
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
         
-    }         
+        img {
+            width: 25%;
+        }
+
+        .menu-items {
+            flex-wrap: wrap;
+            margin-top: 3%;
+
+            .btn-blanc-commande {
+                margin-top: 3%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        img {
+            width: 50%;
+        }
+        .menu-items {
+            flex-direction: column;
+            justify-content: center;
+            ul {
+                flex-direction: column;
+                gap: 5px;
+                margin-right: 0px;
+            }
+        }
+    }
 }

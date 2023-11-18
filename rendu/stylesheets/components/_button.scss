@@ -2,55 +2,59 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
-.btn-commande {
-    width: 160px;
-    height: 39px;
+.btn-blanc {
     background-color: white;
     color: $col-green;
     border: none;
     border-radius: 8px;
     font-weight: bold;
-}
+    box-shadow: 0px 8px 10px rgba(97, 97, 97, 0.2);
 
-.btn-infos {
-    width: 255px;
-    height: 60px;
-    background-color: $col-green;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 24px;
-    font-weight: bold;
+    @media screen and (max-width: 1000px) {
+        font-size: 18px;
+    }
 
-    &-inverted {
-        @extend .btn-infos;
-        background-color: white;
-        color: $col-green;
+    &-commande {
+        @extend .btn-blanc;
+        width: 160px;
+        height: 39px;
+    }
+
+    &-infos {
+        @extend .btn-blanc;
+        width: 255px;
+        height: 60px;
+        font-size: 24px;
     }
 }
 
-.btn-passer-commande {
-    width: 355px;
-    height: 60px;
+.btn-vert {
     background-color: $col-green;
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 24px;
     font-weight: bold;
     box-shadow: 0px 8px 10px rgba(97, 97, 97, 0.2);
+    font-size: 24px;
+
+    &-infos {
+        @extend .btn-vert;
+        width: 255px;
+        height: 60px;
+    }
+
+    &-commander {
+        @extend .btn-vert;
+        width: 355px;
+        height: 60px;
+    }
+
+    &-postuler {
+        @extend .btn-vert;
+        height: 60px;
+        width: 225px;
+    }
 }
-
-.btn-postuler {
-    @extend .btn-passer-commande;
-    height: 60px;
-    width: 225px;
-}
-
-
-
-
-
 
 
 

@@ -13,7 +13,6 @@
 
     .accroche {
         width: 40%;
-        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -39,3 +38,28 @@
         
     }
 }
+
+@media screen and (max-width: 1300px) {
+    .third-page {
+        justify-content: center;
+
+        .accroche {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .third-page {
+        height: auto;
+        padding-block: 7%;
+
+        .accroche {
+            padding: 5%;
+            div p {
+            font-size: 24px;
+            }
+        }
+    }
+}
+

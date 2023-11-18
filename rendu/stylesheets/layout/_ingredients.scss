@@ -13,7 +13,7 @@
 
     .card-ingredients {
         width: 50%;
-        height: 420px;
+        height: 40%;
         padding-inline: 5%;
         padding-block: 2%;
         text-align: center;
@@ -37,6 +37,33 @@
             display: flex;
             justify-content: space-evenly;
             align-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .fifth-page {
+        flex-direction: column;
+        height: auto;
+        padding-block: 5%;
+        .card-ingredients {
+            width: 80%;
+            height: auto;
+            .container-ingredients {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .fifth-page .card-ingredients {
+
+        h2 {
+            font-size: 40px;
+        }
+        .container-ingredients {
+            flex-direction: column;
         }
     }
 }

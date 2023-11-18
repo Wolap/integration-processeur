@@ -25,24 +25,59 @@
             font-size: 126px;
             z-index: 1;
             position: absolute;
-            // faire modif 
         }
 
         //rendre positionnement moins dégeu
         p {
             font-size: 54px;
             transform: rotate(-9deg);
-            margin-top: 220px;
-            margin-left: 90px;
+            margin-top: 210px;
+            margin-left: 150px;
         }
     }
 
     .icones-reseaux {
-        width: 10%;
+        width: 100%;
         display: flex;
-        justify-content: space-between;
-        margin-left: 90%;
+        justify-content: flex-end;    
 
+        img {
+            padding-left: 1%;
+        }
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    .first-page .tagline {
+        
+        h1 {
+            font-size: 90px;
+        }
+        p {
+            font-size: 38px; 
+            margin-left: 110px;
+        }   
+    } 
+}
+@media screen and (max-width: 500px) {
+    .first-page {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .first-page {
+        padding: 5%;
+        .tagline {
+            h1 {
+                font-size: 70px;
+            }
+            p {
+                font-size: 30px;
+                margin-left: 0px;
+                margin-top: 180px;
+            }
+        }
+    } 
 }

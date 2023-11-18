@@ -12,18 +12,35 @@
             <img src="images/mangoo.png" alt="logo-mangoo">
             <div class="menu-items">
                 <ul>
-                    <li>Accueil</li>
-                    <li>Qui sommes-nous ?</li>
-                    <li>Menu</li>
-                    <li>Contact</li>
+
+                    <!-- v2  -->
+                    <div class="txt-underline">
+                        <li>Accueil</li> 
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="txt-underline">
+                        <li>Qui sommes-nous ?</li> 
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="txt-underline">
+                        <li>Menu</li> 
+                        <div class="underline"></div>
+                    </div>
+
+                    <div class="txt-underline">
+                        <li>Contact</li>
+                        <div class="underline"></div>
+                    </div>     
                 </ul>
-                <button class="btn-commande">Commander</button>
+                <button class="btn-blanc-commande">Commander</button>
             </div>
         </nav>
 
         <div class="tagline">
             <h1>mangoo</h1>
-            <p>c'est frais pour vous !</p>
+            <p><i>c'est frais pour vous !</i></p>
         </div>
 
         <div class="icones-reseaux">
@@ -39,10 +56,11 @@
             <p>MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
             <p>Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien.</p>
             <p>Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ? </p>
-            <button class="btn-infos">En savoir +</button>
+            <button class="btn-vert-infos">En savoir +</button>
         </div>
-
-        <img src="images/salade-detoure.png" alt="">
+        <div class="container-img">
+            <img src="images/salade-detoure.png" alt="">
+        </div>
     </section>
 
     <section class="third-page">
@@ -54,7 +72,7 @@
                 <p>Alors faites votre choix !</p>
             </div>
             
-            <button class="btn-infos-inverted">En savoir +</button>
+            <button class="btn-blanc-infos">En savoir +</button>
         </div>
     </section>
 
@@ -67,6 +85,7 @@
 
         <section class="middle-part">
             <section class="left">
+
                 <div class="menu-salade">
                     <div class="header-txt">
                         <h4>Salade J'aime</h4>
@@ -84,11 +103,16 @@
                 </div>
     
                 <div class="menu-salade">
-                    <div class="header-txt">
-                        <h4>Salade 2-2</h4>
-                        <p>9,90€</p>
+                    <div class="important">
+                        <p>La plus vendue !</p>
                     </div>
-                    <p>1 base · 2 ingrédients verts & 2 bleus · Sauce Petit plus et pain offert </p>
+                    <div class="border">
+                        <div class="header-txt">
+                            <h4>Salade 2-2</h4>
+                            <p>9,90€</p>
+                        </div>
+                        <p>1 base · 2 ingrédients verts & 2 bleus · Sauce Petit plus et pain offert </p>
+                    </div>
                 </div>
     
                 <div class="menu-salade">
@@ -110,12 +134,12 @@
     
             <section class="right">
                 <div class="rotate-txt">
-                    <p class="vert">Force Verte ?</p>
-                    <p class="bleu">Force bleu ? </p>
+                    <p class="vert"><i>Force Verte ?</i> </p>
+                    <p class="bleu"><i>Force bleu ?</i></p>
                 </div>
     
                 <p>Ne perdez pas une seconde, faites votre choix et venez chercher votre salade dans 20min !</p>
-                <button class="btn-passer-commande">Passer commande</button>
+                <button class="btn-vert-commander">Passer commande</button>
             </section>
         </section>
     </sectoin>
@@ -180,10 +204,20 @@
 
     <section class="sixth-page">
         <div class="left-img">
-            <img src="images/anh-nguyen-_Uqj5BQb-mw-unsplash.png" alt="">
+
+            <div class="container-cross">
+
+                <div class="cross-top"></div>
+                <div class="cross-left"></div>
+
+                <div class="container-img">
+                    <img src="images/anh-nguyen-_Uqj5BQb-mw-unsplash.png" alt="">
+                </div>
+            </div>
         </div>
+
         <div class="right-form">
-            <div class="header-form">
+            <div class="header-right">
                 <h2>Envie de partager ?</h2>
                 <p>Toute l'année, on recrute des employés motivés pour tous nos restaurants !</p>
                 <p>N'hésitez pas à postuler !</p>
@@ -191,27 +225,33 @@
 
             <div class="form">
                 <form action="">
+
                     <div class="form-name">
+
                         <div class="container-la-in">
                             <label for=""><i>Nom</i></label>
                             <input type="text">
                         </div>
+
                         <div class="container-la-in">
                             <label for=""> <i> Prenom</i></label>
                             <input type="text">
                         </div>
+
                     </div>
+
                     <div class="container-la-in">
                         <label for=""><i>Email</i></label>
                         <input type="text">
                     </div>
+
                     <div class="container-la-in">
                         <label for=""><i>Vos motivations en quelques mots</i></label>
-                        <input type="text">
+                        <input type="text" class="last">
                     </div>
                     
                 </form>
-                <button class="btn-postuler">Postuler</button>
+                <button class="btn-vert-postuler">Postuler</button>
             </div>
         </div>
     </section>

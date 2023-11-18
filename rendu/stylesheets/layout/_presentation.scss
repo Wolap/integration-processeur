@@ -4,15 +4,19 @@
     height: 100vh;
     background-image: url(images/Grille_de_répétition.png);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 10%;
+
+    //permet à l'image de sortir sans avoir les barres de scroll
+    overflow: hidden; 
+    position: relative;
+    z-index: -10;
 
     .text {
+        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 10%;
-        width: 80%;
-        z-index: 1;
 
         h2 {
             color: $col-green;
@@ -21,9 +25,47 @@
         }
 
         p {
+            width: 75%;
             padding-bottom: 40px;
             padding-right: 20px;
-
+            font-size: $default-font-size;
         }
     }
+
+    .container-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+
+        img {
+            z-index: -1;
+        }
+               
+    }
+    
 }
+
+@media screen and (max-width: 1300px) {
+    .second-page .text{
+        width: 70%; 
+    }
+} 
+
+@media screen and (max-width: 1000px) {
+    .second-page {
+        padding-left: 0;
+        text-align: center;
+        font-size: 24px;
+        height: auto;
+        padding: 5%;
+        .text {
+            align-items: center;
+            width: 100%;
+        }
+
+        .container-img {
+            display: none;
+        }
+    }
+} 
